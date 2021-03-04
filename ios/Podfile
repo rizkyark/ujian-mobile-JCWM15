@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'ujianmobileJCWM15' do
+target 'ujianmobileJCWM1504' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'ujianmobileJCWM15Tests' do
+  target 'ujianmobileJCWM1504Tests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'ujianmobileJCWM15' do
   end
 end
 
-target 'ujianmobileJCWM15-tvOS' do
-  # Pods for ujianmobileJCWM15-tvOS
+target 'ujianmobileJCWM1504-tvOS' do
+  # Pods for ujianmobileJCWM1504-tvOS
 
-  target 'ujianmobileJCWM15-tvOSTests' do
+  target 'ujianmobileJCWM1504-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.ujianmobilejcwm15">
+  package="com.ujianmobilejcwm1504">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

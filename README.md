@@ -20,8 +20,8 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - siswa boleh membuka *website* dan referensi lainnya selama ujian sesuai ketentuan yang berlaku
 - jawaban soal akan dikumpulkan di dalam repositori ini dengan sistem ***pull request*** dan siswa wajib mengirim ***link*** dari ***forked repositoy*** ke alamat email berikut ini :<br>
 
-    to : operational@purwadhika.com <br>
-    subject : JCWM15-MOBILE
+    to : operational_jkt@purwadhika.com <br>
+    subject : JCWM-1504-MOBILE
 
 ## B. Exam Setup Guide
 - sebelum mengerjakan soal, lakukan ***fork*** untuk repositori ini
@@ -38,19 +38,19 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 - pindah ke direktori *folder* hasil ```git clone``` dengan cara
 
-    ``` C:\data\alee> cd ujian-mobile-JCWM15 ``` 
+    ``` C:\data\alee> cd ujian-mobile-JCWM1504 ``` 
 
 - buatlah sebuah *branch* baru untuk tempat anda mengerjakan soal ujian
 
-    ``` C:\data\alee\ujian-mobile-JCWM15> git checkout -b alee ```
+    ``` C:\data\alee\ujian-mobile-JCWM1504> git checkout -b alee ```
 
 - *install* semua *dependencies* yang ada di dalam *project* hasil *clone* dari GitHub
     
-    ``` C:\data\alee\ujian-mobile-JCWM15> npm install```
+    ``` C:\data\alee\ujian-mobile-JCWM1504> npm install```
 
 - bukalah *code editor* anda atau *vscode* : 
 
-    ``` C:\data\alee\ujian-mobile-JCWM15> code . ```
+    ``` C:\data\alee\ujian-mobile-JCWM1504> code . ```
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau *cmd* untuk melihat semua daftar *branch* yang ada di *folder project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 
@@ -64,16 +64,16 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - sebelum melakukan *pull request* ke repositori pusat (respositori asal), pastikan bahwa jawaban sudah sesuai dengan soal yang telah diberikan
 - pastikan bahwa anda telah menyimpan semua perubahan/*history* di *git*, untuk memastikannya lakukan perintah berikut ini di terminal/*cmd*
 
-    ```C:\data\alee\ujian-mobile-JCWM15> git status ```
+    ```C:\data\alee\ujian-mobile-JCWM1504> git status ```
 
 - jika *local repository* anda sudah bersih maka lanjut ke *step* berikutnya. jika masih ada file yang belum di *track* (*untrack files*) atau preubahan (*changes*) yang belum di *commit*, maka lakukan *commit* terlebih dahulu
 
-    ``` C:\data\alee\ujian-mobile-JCWM15> git add . ``` <br>
-    ``` C:\data\alee\ujian-mobile-JCWM15> git commit -m "masukan pesan commit anda" ```
+    ``` C:\data\alee\ujian-mobile-JCWM1504> git add . ``` <br>
+    ``` C:\data\alee\ujian-mobile-JCWM1504> git commit -m "masukan pesan commit anda" ```
 
 - *push branch* yang berisi hasil ujian ke GitHub (*forked repository*)
 
-    ``` C:\data\alee\ujian-mobile-JCWM15> git push origin alee ```
+    ``` C:\data\alee\ujian-mobile-JCWM1504> git push origin alee ```
 
 - buka GitHub dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang berisi hasil ujian anda sudah ada di GitHub
 - jika sudah ada, maka akan muncul warning untuk melakukan *pull request*
@@ -83,7 +83,7 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - lakukan *pull request* dan **PASTIKAN!** bahwa
     1. **HEAD repository** berasal dari repositori kalian dan **compare branch** berasal dari *branch* tempat anda mengerjakan soal (**branch yang baru di push**), **BASE respository** menuju repositori asal dan **compare branch** pilih sesuai nama kalian
     2. beri informasi *pull request* berupa : nama-program (**PENTING!**)
-    <br>e.x. : ALEE-JCWM15
+    <br>e.x. : ALEE-JCWM-1504
     3. jika semua informasi sudah sesuai lakukan *pull request* dengan menekan tombol *create pull request*
     
     ![guide_4](https://dm2302files.storage.live.com/y4mKybOAijDgpGP2j84PvSlei8brxPrTsI4Jf8P3BCXWOaPxEbnk5Q0-8bQ3SHGOqsZn3VLR8WkK9MgX8QB6pKSwHgbRRGqy2YOQjLm9BTbIJrdSwk3FerqDR7P3qYthjL1E0xhVgaU6L1Uwg6bSqvneK5rldYeLTIYLMKfkpD-49n4DRx_Jv-uP8ZqwexPw7lU?width=928&height=430&cropmode=none)
